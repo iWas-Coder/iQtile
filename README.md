@@ -1,2 +1,1 @@
-# wasymatieh
-Personal files project-based.
+# Personal files project-based
