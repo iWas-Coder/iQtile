@@ -31,6 +31,7 @@ cls
 	if %M%==3 goto pool_etc
 	if %M%==4 goto pool_rvn
 	if %M%==5 goto EOF
+	else goto master_menu
 
 
 
