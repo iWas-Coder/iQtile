@@ -14,8 +14,8 @@ echo (c) iWas-Coder. All rights reserved.
 
 
 
+echo off
 :master_menu
-	echo off
 	cls
 
 	echo.
@@ -39,7 +39,6 @@ echo (c) iWas-Coder. All rights reserved.
 
 
 :nicehash_eth
-	echo off
 	cls
 
 	echo.
@@ -69,7 +68,6 @@ goto master_menu
 
 
 :pool_eth
-	echo off
 	cls
 
 	echo.
@@ -99,7 +97,6 @@ goto master_menu
 
 
 :pool_etc
-	echo off
 	cls
 
 	echo.
@@ -129,7 +126,6 @@ goto master_menu
 
 
 :pool_rvn
-	echo off
 	cls
 
 	echo.
