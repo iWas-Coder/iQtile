@@ -33,7 +33,6 @@ cls
 	if %M%==5 goto EOF
 
 
-
 :nicehash_eth
 	echo off
 	cls
