@@ -38,7 +38,6 @@ cls
 	echo off
 	cls
 
-	:submenu_1
 	echo.
 	echo ...............................................
 	echo PRESS 1 OR 2 to select your mining intensity, or 3 to EXIT.
@@ -56,11 +55,11 @@ cls
 
 	:light_mining_1
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a ethash --coin eth -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+tcp://daggerhashimoto.eu-west.nicehash.com:3353 -u 34douYJySifha8N9yJUwAM8aV59sP8R1Vo -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_1
+	goto nicehash_eth
 
 	:normal_mining_1
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a ethash --coin eth -i 16 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+tcp://daggerhashimoto.eu-west.nicehash.com:3353 -u 34douYJySifha8N9yJUwAM8aV59sP8R1Vo -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_1
+	goto nicehash_eth
 
 goto master_menu
 
@@ -69,7 +68,6 @@ goto master_menu
 	echo off
 	cls
 
-	:submenu_2
 	echo.
 	echo ...............................................
 	echo PRESS 1 OR 2 to select your mining intensity, or 3 to EXIT.
@@ -87,11 +85,11 @@ goto master_menu
 
 	:light_mining_2
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a ethash --coin eth -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://eu1.ethermine.org:5555 -u 0xBC9648Af8f9c69b26EDf7a6c5298CF032dF41EA4 -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_2
+	goto pool_eth
 
 	:normal_mining_2
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a ethash --coin eth -i 16 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://eu1.ethermine.org:5555 -u 0xBC9648Af8f9c69b26EDf7a6c5298CF032dF41EA4 -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_2
+	goto pool_eth
 
 goto master_menu
 
@@ -100,7 +98,6 @@ goto master_menu
 	echo off
 	cls
 
-	:submenu_3
 	echo.
 	echo ...............................................
 	echo PRESS 1 OR 2 to select your mining intensity, or 3 to EXIT.
@@ -118,11 +115,11 @@ goto master_menu
 
 	:light_mining_3
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a etchash --coin etc -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://eu1-etc.ethermine.org:5555 -u 0xbAdC082151ecEa6cD27679a8010De00017c9a31C -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_3
+	goto pool_etc
 
 	:normal_mining_3
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a etchash --coin etc -i 16 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://eu1-etc.ethermine.org:5555 -u 0xbAdC082151ecEa6cD27679a8010De00017c9a31C -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_3
+	goto pool_etc
 
 goto master_menu
 
@@ -131,7 +128,6 @@ goto master_menu
 	echo off
 	cls
 
-	:submenu_4
 	echo.
 	echo ...............................................
 	echo PRESS 1 OR 2 to select your mining intensity, or 3 to EXIT.
@@ -149,10 +145,10 @@ goto master_menu
 
 	:light_mining_4
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a kawpow --coin rvn -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u r9S12NQEkdNaCH4BKwJtfuZnHe85kQ21xd -p 0.1 -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_4
+	goto pool_rvn
 
 	:normal_mining_4
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a kawpow --coin rvn -i 16 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u r9S12NQEkdNaCH4BKwJtfuZnHe85kQ21xd -p 0.1 -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
-	goto submenu_4
+	goto pool_rvn
 
 goto master_menu
