@@ -11,7 +11,7 @@ cls
 :: START of Copyright License
 echo NVIDIA Master Miner [Version v1.0]
 echo (c) iWas-Coder. All rights reserved.
-@timeout /t 3 /nobreak>nul
+@timeout /t 2 /nobreak>nul
 :: END of Copyright License
 
 
@@ -37,6 +37,8 @@ echo (c) iWas-Coder. All rights reserved.
 	if %M%==3 goto pool_etc
 	if %M%==4 goto pool_rvn
 	if %M%==5 goto EOF
+	if %M% lss 1 goto master_menu
+	if %M% gtr 5 goto master_menu
 
 
 :nicehash_eth
@@ -56,6 +58,8 @@ echo (c) iWas-Coder. All rights reserved.
 	if %M%==1 goto light_mining_1
 	if %M%==2 goto normal_mining_1
 	if %M%==3 goto master_menu
+	if %M% lss 1 goto nicehash_eth
+	if %M% gtr 3 goto nicehash_eth
 
 	:light_mining_1
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a ethash --coin eth -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+tcp://daggerhashimoto.eu-west.nicehash.com:3353 -u 34douYJySifha8N9yJUwAM8aV59sP8R1Vo -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
@@ -85,6 +89,8 @@ goto master_menu
 	if %M%==1 goto light_mining_2
 	if %M%==2 goto normal_mining_2
 	if %M%==3 goto master_menu
+	if %M% lss 1 goto pool_eth
+	if %M% gtr 3 goto pool_eth
 
 	:light_mining_2
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a ethash --coin eth -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://eu1.ethermine.org:5555 -u 0xBC9648Af8f9c69b26EDf7a6c5298CF032dF41EA4 -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
@@ -114,6 +120,8 @@ goto master_menu
 	if %M%==1 goto light_mining_3
 	if %M%==2 goto normal_mining_3
 	if %M%==3 goto master_menu
+	if %M% lss 1 goto pool_etc
+	if %M% gtr 3 goto pool_etc
 
 	:light_mining_3
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a etchash --coin etc -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://eu1-etc.ethermine.org:5555 -u 0xbAdC082151ecEa6cD27679a8010De00017c9a31C -p x -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
@@ -143,6 +151,8 @@ goto master_menu
 	if %M%==1 goto light_mining_4
 	if %M%==2 goto normal_mining_4
 	if %M%==3 goto master_menu
+	if %M% lss 1 goto pool_rvn
+	if %M% gtr 3 goto pool_rvn
 
 	:light_mining_4
 	C:\"Program Files (x86)"\"T-Rex NVIDIA Miner"\t-rex.exe -a kawpow --coin rvn -i 10 --low-load 1 --kernel 0 --keep-gpu-busy --cpu-priority 0 -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u r9S12NQEkdNaCH4BKwJtfuZnHe85kQ21xd -p 0.1 -w SPARKY --api-key bwAAAAAAAABLJhYYYNiD7cNJSiQsCHN0IAIUUsnPTy3nxMY1R798AshysYIMdvyx3OJ9v2Z/uoXSqje+nMYK14um599nlYGqKJ1OJXSAkHI=
