@@ -11,7 +11,7 @@ cls
 :: START of Copyright License
 echo NVIDIA Master Miner [Version v1.0]
 echo (c) iWas-Coder. All rights reserved.
-@timeout /t 3 /nobreak
+@timeout /t 3 /nobreak>nul
 :: END of Copyright License
 
 
