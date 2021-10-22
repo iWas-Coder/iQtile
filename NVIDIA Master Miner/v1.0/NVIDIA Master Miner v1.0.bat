@@ -17,6 +17,7 @@ echo (c) iWas-Coder. All rights reserved.
 
 
 :master_menu
+	set "M="
 	cls
 
 	echo.
@@ -42,6 +43,7 @@ echo (c) iWas-Coder. All rights reserved.
 
 
 :nicehash_eth
+	set "M="
 	cls
 
 	echo.
@@ -73,6 +75,7 @@ goto master_menu
 
 
 :pool_eth
+	set "M="
 	cls
 
 	echo.
@@ -104,6 +107,7 @@ goto master_menu
 
 
 :pool_etc
+	set "M="
 	cls
 
 	echo.
@@ -135,6 +139,7 @@ goto master_menu
 
 
 :pool_rvn
+	set "M="
 	cls
 
 	echo.
