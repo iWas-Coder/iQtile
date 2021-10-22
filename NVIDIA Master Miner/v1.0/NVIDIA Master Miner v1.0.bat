@@ -11,13 +11,13 @@ cls
 :: START of Copyright License
 echo NVIDIA Master Miner [Version v1.0]
 echo (c) iWas-Coder. All rights reserved.
-@timeout /t 2 /nobreak>nul
+@timeout /t 3 /nobreak>nul
 :: END of Copyright License
 
 
 
 :master_menu
-	set "M="
+	set M=0
 	cls
 
 	echo.
@@ -43,7 +43,7 @@ echo (c) iWas-Coder. All rights reserved.
 
 
 :nicehash_eth
-	set "M="
+	set M=0
 	cls
 
 	echo.
@@ -75,7 +75,7 @@ goto master_menu
 
 
 :pool_eth
-	set "M="
+	set M=0
 	cls
 
 	echo.
@@ -107,7 +107,7 @@ goto master_menu
 
 
 :pool_etc
-	set "M="
+	set M=0
 	cls
 
 	echo.
@@ -139,7 +139,7 @@ goto master_menu
 
 
 :pool_rvn
-	set "M="
+	set M=0
 	cls
 
 	echo.
