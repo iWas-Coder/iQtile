@@ -2,4 +2,4 @@
 
 - NVIDIA Master Miner
 
-- Dotfiles | ArchLinux customization (IN PROCESS)
+- ArchLinux customization files (IN PROCESS)
