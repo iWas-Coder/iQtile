@@ -1,0 +1,2 @@
+# yay AUR Helper installation
+
