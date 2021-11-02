@@ -2,4 +2,4 @@
 
 - NVIDIA Master Miner
 
-- ArchLinux customization files (IN PROCESS)
+- ArchLinux customization project (IN PROCESS)
