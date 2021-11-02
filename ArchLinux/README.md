@@ -3,3 +3,5 @@
 - [yay AUR Helper installation](https://github.com/iWas-Coder/wasymatieh/blob/main/ArchLinux/yay_installation.md)
 
 - NVIDIA Drivers installation
+
+- ASUS Notebooks utilities (asusctl, supergfxctl & custom kernel)
