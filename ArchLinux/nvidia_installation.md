@@ -3,7 +3,7 @@
 
 Add pacman hook to compile module on kernel upgrades:
 
-   /etc/pacman.d/hooks/nvidia.hook
+   */etc/pacman.d/hooks/nvidia.hook*
     
     [Trigger]
     Operation=Install
@@ -24,7 +24,7 @@ Add pacman hook to compile module on kernel upgrades:
 
 Blacklist nouveau driver:
 
-   /etc/X11/xorg.conf.d/20-nvidia.conf
+   */etc/X11/xorg.conf.d/20-nvidia.conf*
     
     Section "OutputClass"
     Identifier "intel"
@@ -45,18 +45,18 @@ Blacklist nouveau driver:
     
 Load NVIDIA modules on boot - Update firmware:
 
-   /etc/mkinitcpio.conf
+   */etc/mkinitcpio.conf*
     
     MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 
     sudo mkinitcpio -P linux
     
     
-Update ~/.xinitrc:
+Update xinitrc:
 
     xandr --listproviders
     
-   ~/.xinitrc
+   *~/.xinitrc*
    
     xrandr --setprovideroutputsource modesetting NVIDIA-0
     xrandr --auto
