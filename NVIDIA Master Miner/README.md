@@ -1,5 +1,5 @@
 # v1.0
 Simple Batch (CMD) implementation.
 
-# (upcoming) v1.1
+# v1.1 (IN PROGRESS)
 Developed in C. In progress.
