@@ -73,7 +73,7 @@ xorg --> GUI
 xsel
 zsh --> UNIX Shell
 {
-  zsh-autocomplete-git
-  zsh-autosuggestions
+  zsh-autocomplete --> [git MANUAL INSTALL]
+  zsh-autosuggestions --> [git MANUAL INSTALL]
   zsh-syntax-highlighting
 }
