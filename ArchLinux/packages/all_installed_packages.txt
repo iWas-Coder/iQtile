@@ -6,7 +6,7 @@ bat --> cat Clone with Wings
 binutils
 bison
 btrfs-progs
-cython
+cython --> C-Extensions for Python
 efibootmgr
 fakeroot
 fd
