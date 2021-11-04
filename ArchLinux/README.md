@@ -4,4 +4,4 @@
 
 - [NVIDIA Drivers installation](https://github.com/iWas-Coder/wasymatieh/blob/main/ArchLinux/nvidia_installation.md)
 
-- ASUS Notebooks utilities (asusctl, supergfxctl & custom kernel)
+- [ASUS Notebooks utilities installation (asusctl, supergfxctl & custom kernel)](https://github.com/iWas-Coder/wasymatieh/blob/main/ArchLinux/asus-utils_installation.md)
