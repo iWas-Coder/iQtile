@@ -1,6 +1,6 @@
 # yay AUR Helper installation
 
-First, make sure that the 'git' package is installed. Check the [package list](https://raw.githubusercontent.com/iWas-Coder/wasymatieh/main/ArchLinux/installed_packages.txt).
+First, make sure that the 'git' package is installed. Check the [package list](https://raw.githubusercontent.com/iWas-Coder/wasymatieh/main/ArchLinux/packages/all_installed_packages.txt).
 
 
 Next, follow the following steps to install yay:
