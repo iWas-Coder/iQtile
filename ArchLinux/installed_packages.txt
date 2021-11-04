@@ -6,6 +6,7 @@ bat --> cat Clone with Wings
 binutils
 bison
 btrfs-progs
+cython
 efibootmgr
 fakeroot
 fd
