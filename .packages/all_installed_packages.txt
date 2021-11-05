@@ -1,0 +1,79 @@
+alacritty --> Terminal Emulator
+autoconf
+automake
+base
+bat --> cat Clone with Wings
+binutils
+bison
+btrfs-progs
+cython --> C-Extensions for Python
+efibootmgr
+fakeroot
+fd
+feh --> Wallpaper Manager
+file
+findutils
+flex
+fzf
+gawk
+gcc
+gettext 
+git
+google-chrome --> Browser [YAY PACKAGE]
+grep
+groff
+grub
+gtk2
+gtkmm
+gzip
+libtool
+lightdm --> Login Manager
+lightdm-gtk-greeter --> Basic theme for lightdm
+lightdm-webkit2-greeter --> Default theme for lightdm
+linux
+linux-firmware
+lsd --> The next gen ls command
+m4
+make
+nano
+neovim --> Text editor
+net-tools
+nodejs
+noto-fonts
+npm
+ntp
+pacman
+papirus-icon-theme
+patch
+pavucontrol --> pulseaudio Control Interface
+picom --> Screen Compositor
+pkgconf
+prettier
+pulseaudio --> Audio Engine
+python-pip
+qtile --> WindowManager/DesktopEnvironment
+ranger --> Terminal-based File Explorer
+rofi --> Spotlight App Search Engine
+ruby
+rubygems
+screenfetch --> System information in terminal
+sed
+sudo
+sxiv --> Image Viewer
+texinfo
+the_silver_searcher
+tree --> Tree-like representation of directory hierarchy
+ttf-dejavu
+ttf-liberation
+unzip
+volumeicon --> Volume slider in the top bar
+wget
+which
+xorg --> GUI
+xsel
+zsh --> UNIX Shell
+{
+  zsh-autocomplete --> [git MANUAL INSTALL]
+  zsh-autosuggestions --> [git MANUAL INSTALL]
+  zsh-syntax-highlighting
+}
