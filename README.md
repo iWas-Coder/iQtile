@@ -1,7 +1,7 @@
 # iQtile
 
-### Arch Installation from scratch
+## Arch Installation from scratch
 
-#### Partitions and formats
+### Partitions and formats
 
 (...)
