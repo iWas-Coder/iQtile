@@ -1,6 +1,6 @@
 # iQtile: The Ultimate Customization of an OS
 
-![Thumbnail](__assets__/iQtile%20Project%20thumbnail.png)
+![Thumbnail](assets/iQtile%20Project%20thumbnail.png)
 
 # Partitions and formats
 
@@ -20,7 +20,7 @@ This is the general schema of partitions with each corresponent format in Linux:
 
 # Installation script
 
-![Archfi](https://raw.githubusercontent.com/iWas-Coder/iQtile/main/__assets__/iQtile%20Project%20archfi%20script.png)
+![Archfi](assets/iQtile%20Project%20archfi%20script.png)
 
 We will be using an automated script to install Arch Linux more easily:
 
