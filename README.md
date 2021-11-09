@@ -20,9 +20,11 @@ This is the general schema of partitions with each corresponent format in Linux:
 
 # Installation script
 
+![Archfi](__assets__/iQtile%20Project%20archfi%20script.png)
+
 We will be using an automated script to install Arch Linux more easily:
 
-    curl -L archfi.sf.net/archfi > archfi
+    curl -L archfi.sf.net/archfi > archfi && ./archfi
     
 After that, we would end up with with a fresh install of Arch Linux, ready to configure our Window Manager (WM) and programs.
 
