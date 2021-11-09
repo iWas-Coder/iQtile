@@ -2,6 +2,10 @@
 
 ![Thumbnail](img/iQtile%20Project%20thumbnail.png)
 
+# Table of contents
+
+(...)
+
 # Partitions and formats
 
 This is the general schema of partitions with each corresponent format in Linux:
