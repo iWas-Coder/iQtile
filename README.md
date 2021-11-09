@@ -20,7 +20,7 @@ This is the general schema of partitions with each corresponent format in Linux:
 
 # Installation script
 
-![Archfi](__assets__/iQtile%20Project%20archfi%20script.png)
+![Archfi](https://raw.githubusercontent.com/iWas-Coder/iQtile/main/__assets__/iQtile%20Project%20archfi%20script.png)
 
 We will be using an automated script to install Arch Linux more easily:
 
