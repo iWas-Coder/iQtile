@@ -35,3 +35,32 @@ After that, we would end up with with a fresh install of Arch Linux, ready to co
 # Pacman packages to install
 
 (...)
+
+# Qtile configuration
+
+(...)
+
+# LightDM configuration
+
+(...)
+
+# Picom configuration
+
+(...)
+
+# zsh Shell configuration
+
+(...)
+
+# Rofi configuration
+
+(...)
+
+# Ranger configuration
+
+(...)
+
+# Neovim configuration
+
+(...)
+
