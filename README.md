@@ -99,3 +99,7 @@ After that, it should be ready to start using Picom after a session re-login.
 
 (...)
 
+
+
+
+https://gitlab.com/Karuri/vfio
