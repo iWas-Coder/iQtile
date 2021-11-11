@@ -34,33 +34,49 @@ After that, we would end up with with a fresh install of Arch Linux, ready to co
 
 # Pacman packages to install
 
+![Pacman](/img/iQtile%20Project%20pacman.png)
+
 (...)
 
 # Qtile configuration
+
+![Qtile](img/iQtile%20Project%20qtile.png)
 
 (...)
 
 # LightDM configuration
 
+![LightDM](img/iQtile%20Project%20lightdm.png)
+
 (...)
 
 # Picom configuration
+
+![Picom](img/iQtile%20Project%20picom.png)
 
 (...)
 
 # zsh Shell configuration
 
+![zsh](img/iQtile%20Project%20zsh.png)
+
 (...)
 
 # Rofi configuration
+
+![Rofi](img/iQtile%20Project%20rofi.png)
 
 (...)
 
 # Ranger configuration
 
+![Ranger](img/iQtile%20Project%20ranger.png)
+
 (...)
 
 # Neovim configuration
+
+![Neovim](img/iQtile%20Project%20neovim.png)
 
 (...)
 
