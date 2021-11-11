@@ -36,7 +36,9 @@ After that, we would end up with with a fresh install of Arch Linux, ready to co
 
 ![Pacman](/img/iQtile%20Project%20pacman.png)
 
-(...)
+Let's going to install all needed packages and dependencies to be able to apply the customization, directly off of pacman's repositories. We have a file, named *packages.txt*, which is essentially a list of all package names that can be used as the input of *pacman* to install them at once.
+
+    sudo pacman -S - < packages.txt
 
 # Qtile configuration
 
