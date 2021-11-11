@@ -56,12 +56,24 @@ Let's going to install all needed packages and dependencies to be able to apply 
 Edit the file */etc/lightdm/lightdm-webkit2-greeter.conf* as such:
 
     webkit-theme = aqua
+    
+After that, it should be all set to start using LightDM with this custom theme. In addition, we should like having an account icon. To do so, (...)
 
 # Picom configuration
 
 ![Picom](img/iQtile%20Project%20picom.png)
 
-(...)
+We will be using an specific fork of Picom, which is *picom-tryone-git*. It will allow us to have a compositor with fading, transparency and blurring effects with the dual-kawase implementation. To install it, just do the following:
+
+    yay -S picom-tryone-git
+    
+Then, we must make our custom configurations to match the desired result. To do it, execute the following commands:
+
+    curl -L https://github.com/iWas-Coder/iQtile/blob/main/dotfiles/picom_config.sh > picom_config.sh
+    chmod u+x picom_config.sh
+    ./picom_config.sh
+    
+After that, it should be ready to start using Picom after a session re-login.
 
 # zsh Shell configuration
 
