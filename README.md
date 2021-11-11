@@ -50,7 +50,12 @@ Let's going to install all needed packages and dependencies to be able to apply 
 
 ![LightDM](img/iQtile%20Project%20lightdm.png)
 
-(...)
+    sudo pacman -S lightdm-webkit2-greeter
+    git clone https://github.com/paysonwallach/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit2/themes/aqua
+    
+Edit the file */etc/lightdm/lightdm-webkit2-greeter.conf* as such:
+
+    webkit-theme = aqua
 
 # Picom configuration
 
