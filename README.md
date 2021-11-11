@@ -69,7 +69,7 @@ We will be using an specific fork of Picom, which is *picom-tryone-git*. It will
     
 Then, we must make our custom configurations to match the desired result. To do it, execute the following commands:
 
-    curl -L https://github.com/iWas-Coder/iQtile/blob/main/dotfiles/picom_config.sh > picom_config.sh
+    curl -L https://github.com/iWas-Coder/iQtile/blob/main/scripts/picom_config.sh > picom_config.sh
     chmod u+x picom_config.sh
     ./picom_config.sh
     
