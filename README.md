@@ -51,13 +51,38 @@ Let's going to install all needed packages and dependencies to be able to apply 
 ![LightDM](img/iQtile%20Project%20lightdm.png)
 
     sudo pacman -S lightdm-webkit2-greeter
-    git clone https://github.com/paysonwallach/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit2/themes/aqua
+    git clone https://github.com/paysonwallach/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit/themes/aqua
     
 Edit the file */etc/lightdm/lightdm-webkit2-greeter.conf* as such:
 
     webkit-theme = aqua
     
-After that, it should be all set to start using LightDM with this custom theme. In addition, we should like having an account icon. To do so, (...)
+Edit the file */etc/lightdm/lightdm.conf* as such:
+
+    user-session = qtile
+    
+To change our background, we are going to go to the following location:
+
+    cd /usr/share/backgrounds/
+    
+Here we must copy our wallpaper, renaming it to *current*, and giving to it full permissions, as such:
+
+    sudo cp ~/.wallpapers/main.png ./current
+    sudo chmod 777 current
+    
+Then, we can edit the file */usr/share/lightdm-webkit/themes/aqua/resources/css/style.css* to change the blur level of the background, as such:
+
+    #background.blurred {
+        transform: scale(1.07);
+        -webkit-filter: blur(6px) brightness(80%);
+        filter: blur(15px) brightness(80%);
+    }
+
+After that, it should be all set to start using LightDM with this custom theme. In addition, we should like having an account icon. To do so, we must go to the location */usr/share/lightdm-webkit/themes/aqua/resources/img/*, and copy there the icon we want to use, as such:
+
+    sudo rm avatar.svg
+    sudo cp ~/.wallpapers/ac_icon.png ./avatar.svg
+    sudo chmod 777 avatar.svg
 
 # Picom configuration
 
