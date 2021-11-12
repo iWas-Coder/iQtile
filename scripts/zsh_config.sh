@@ -15,3 +15,5 @@ unzip zsh_root.zip
 rm zsh_root.zip
 sudo mv zsh_root/.zsh/ zsh_root/powerlevel10k/ zsh_root/.p10k.zsh zsh_root/.zshrc /root/ && rmdir zsh_root/
 ln -s /root/.zshrc /home/$USER/.zshrc
+
+echo "DONE! Exiting..."
