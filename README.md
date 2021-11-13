@@ -28,7 +28,7 @@ This is the general schema of partitions with each corresponent format in Linux:
 
 We will be using an automated script to install Arch Linux more easily:
 
-    curl -L archfi.sf.net/archfi > archfi && ./archfi
+    curl -L archfi.sf.net/archfi > archfi && chmod +x archfi && ./archfi
     
 After that, we would end up with with a fresh install of Arch Linux, ready to configure our Window Manager (WM) and programs.
 
