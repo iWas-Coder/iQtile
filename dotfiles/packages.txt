@@ -154,7 +154,6 @@ gnupg
 gnutls
 go
 gobject-introspection-runtime
-google-chrome
 gparted
 gpgme
 gpm
@@ -807,7 +806,6 @@ spotify
 sqlite
 srt
 startup-notification
-steam
 sudo
 svt-av1
 sxiv
@@ -1018,7 +1016,6 @@ xvidcore
 xxhash
 xz
 yajl
-yay
 zenity
 zeromq
 zimg
