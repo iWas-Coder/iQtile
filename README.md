@@ -4,7 +4,16 @@
 
 # Table of contents
 
-(...)
+- [Partitions and formats](#partitions-and-formats)
+- [Installation script](#installation-script)
+- [Pacman packages to install](#pacman-packages-to-install)
+- [Qtile configuration](#qtile-configuration)
+- [LightDM configuration](#lightdm-configuration)
+- [Picom configuration](#picom-configuration)
+- [zsh Shell configuration](#zsh-shell-configuration)
+- [Rofi configuration](#rofi-configuration)
+- [Ranger configuration](#ranger-configuration)
+- [Neovim configuration](#neovim-configuration)
 
 # Partitions and formats
 
