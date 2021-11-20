@@ -11,6 +11,7 @@
 - [LightDM configuration](#lightdm-configuration)
 - [Picom configuration](#picom-configuration)
 - [zsh Shell configuration](#zsh-shell-configuration)
+- [Alacritty configuration](#alacritty-configuration)
 - [Rofi configuration](#rofi-configuration)
 - [Ranger configuration](#ranger-configuration)
 - [Neovim configuration](#neovim-configuration)
@@ -113,6 +114,12 @@ After that, it should be ready to start using Picom after a session re-login.
 # zsh Shell configuration
 
 ![zsh](img/iQtile%20Project%20zsh.png)
+
+(...)
+
+# Alacritty configuration
+
+![alacritty](img/iQtile%20Project%20alacritty.png)
 
 (...)
 
