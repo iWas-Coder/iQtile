@@ -133,8 +133,3 @@ After that, it should be ready to start using Picom after a session re-login.
 ![Neovim](img/iQtile%20Project%20neovim.png)
 
 (...)
-
-
-
-
-https://gitlab.com/Karuri/vfio
