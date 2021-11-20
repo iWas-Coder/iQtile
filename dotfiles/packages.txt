@@ -34,6 +34,7 @@ libtool
 lightdm
 lightdm-gtk-greeter
 lightdm-webkit2-greeter
+lightdm-slick-greeter
 linux
 linux-firmware
 lsd
