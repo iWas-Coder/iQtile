@@ -6,7 +6,6 @@ bat
 binutils
 bison
 btrfs-progs
-code
 dosfstools
 efibootmgr
 fakeroot
@@ -21,7 +20,6 @@ gawk
 gcc
 gettext
 git
-gnome-terminal
 gnu-netcat
 grep
 groff
