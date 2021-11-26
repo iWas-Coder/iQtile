@@ -38,6 +38,7 @@ linux-firmware
 lsd
 m4
 make
+mesa
 mtools
 nano
 neofetch
