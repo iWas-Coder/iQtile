@@ -49,21 +49,38 @@ An important step is to not reboot the machine, and instead 'arch-chroot /mnt' a
 
 Let's going to install all needed packages and dependencies to be able to apply the customization, directly off of pacman's repositories. We have a file, named *packages.txt*, which is essentially a list of all package names that can be used as the input of *pacman* to install them at once.
 
-    curl -L https://github.com/iWas-Coder/iQtile/blob/main/dotfiles/packages.txt > packages.txt
+    curl -L https://github.com/iWas-Coder/iQtile/raw/main/dotfiles/packages.txt > packages.txt
     sudo pacman -S - < packages.txt
 
 # Qtile configuration
 
 ![Qtile](img/iQtile%20Project%20qtile.png)
 
-We will be using Qtile as our WM. To import the settings I made, we can use the following script to automatize the file management.
+We will be using Qtile as our WM. To import the settings I made, we can use the following script to automate the file management.
+                                   
+    curl -L https://github.com/iWas-Coder/iQtile/raw/main/scripts/qtile_config.sh > qtile_config.sh
+    chmod +x qtile_config.sh
+    ./qtile_config.sh
 
 # LightDM configuration
 
 ![LightDM](img/iQtile%20Project%20lightdm.png)
 
-(...)
- 
+We will be using LightDM as our DE or DM. When we installed the package list previously, we include some greeters for the login manager of LightDM. In addition to that, we need to set the session that we want to use in the correspondent config file. We will use the 'lightdm-webkit2-greeter' session, as it comes pre-configured and it works very good.
+We must edit a couple of files, changing the following lines:
+
+'/etc/lightdm/lightdm.conf':
+    
+    (...)
+    
+'/etc/lightdm/lightdm-webkit2-greeter.conf':
+    
+    (...)
+
+'(...)':
+    
+    (...)
+    
 # Picom configuration
 
 ![Picom](img/iQtile%20Project%20picom.png)
