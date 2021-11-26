@@ -105,14 +105,14 @@ As the shell, we will be using ZSH, or Z-Shell, with the powerlevel10k appearanc
     
 - powerlevel10k installation:
     
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
-    echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
+        echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
     
 - script (My Config) installation:
     
-    curl -L https://github.com/iWas-Coder/iQtile/blob/main/scripts/2-zsh_config.sh > 2-zsh_config.sh
-    chmod +x 2-zsh_config.sh
-    ./2-zsh_config.sh
+        curl -L https://github.com/iWas-Coder/iQtile/blob/main/scripts/2-zsh_config.sh > 2-zsh_config.sh
+        chmod +x 2-zsh_config.sh
+        ./2-zsh_config.sh
     
 To set the ZSH as the default shell for the system (for both the user and root), we must do the following:
     
