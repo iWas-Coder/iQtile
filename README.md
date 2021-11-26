@@ -58,9 +58,9 @@ Let's going to install all needed packages and dependencies to be able to apply 
 
 We will be using Qtile as our WM. To import the settings I made, we can use the following script to automate the file management.
                                    
-    curl -L https://github.com/iWas-Coder/iQtile/raw/main/scripts/qtile_config.sh > qtile_config.sh
-    chmod +x qtile_config.sh
-    ./qtile_config.sh
+    curl -L https://github.com/iWas-Coder/iQtile/raw/main/scripts/0-qtile_config.sh > 0-qtile_config.sh
+    chmod +x 0-qtile_config.sh
+    ./0-qtile_config.sh
 
 # LightDM configuration
 
@@ -91,9 +91,9 @@ We will be using an specific fork of Picom, which is *picom-tryone-git*. It will
     
 Then, we must make our custom configurations to match the desired result. To do it, execute the following commands:
 
-    curl -L https://github.com/iWas-Coder/iQtile/blob/main/scripts/picom_config.sh > picom_config.sh
-    chmod u+x picom_config.sh
-    ./picom_config.sh
+    curl -L https://github.com/iWas-Coder/iQtile/blob/main/scripts/1-picom_config.sh > 1-picom_config.sh
+    chmod +x 1-picom_config.sh
+    ./1-picom_config.sh
     
 After that, it should be ready to start using Picom after a session re-login.
 
