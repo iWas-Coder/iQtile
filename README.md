@@ -10,7 +10,7 @@
 - [Qtile configuration](#qtile-configuration)
 - [LightDM configuration](#lightdm-configuration)
 - [Picom configuration](#picom-configuration)
-- [zsh Shell configuration](#zsh-shell-configuration)
+- [ZSH Shell configuration](#zsh-shell-configuration)
 - [Alacritty configuration](#alacritty-configuration)
 - [Rofi configuration](#rofi-configuration)
 - [Ranger configuration](#ranger-configuration)
@@ -97,11 +97,27 @@ Then, we must make our custom configurations to match the desired result. To do 
     
 After that, it should be ready to start using Picom after a session re-login.
 
-# zsh Shell configuration
+# ZSH Shell configuration
 
 ![zsh](img/iQtile%20Project%20zsh.png)
 
-(...)
+As the shell, we will be using ZSH, or Z-Shell, with the powerlevel10k appearance and some syntax plugins. To do so, we can either install my settings with a script, or setup the powerlevel10k from scratch.
+    
+- powerlevel10k installation:
+    
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
+    echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+    
+- script (My Config) installation:
+    
+    curl -L https://github.com/iWas-Coder/iQtile/blob/main/scripts/2-zsh_config.sh > 2-zsh_config.sh
+    chmod +x 2-zsh_config.sh
+    ./2-zsh_config.sh
+    
+To set the ZSH as the default shell for the system (for both the user and root), we must do the following:
+    
+    sudo chsh -s /bin/zsh <USERNAME>
+    sudo chsh -s /bin/zsh root
 
 # Alacritty configuration
 
