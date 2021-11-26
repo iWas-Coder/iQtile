@@ -65,7 +65,7 @@ We will be using Qtile as our WM. To import the settings I made, we can use the 
 
 # LightDM configuration
 
-![LightDM](img/iQtile%20Project%20lightdm.png)
+![LightDM](img/iQtile%20Project%20lightdm_2.png)
 
 We will be using LightDM as our DE or DM. When we installed the package list previously, we include some greeters for the login manager of LightDM. In addition to that, we need to set the session that we want to use in the correspondent config file. We will use the 'lightdm-webkit2-greeter' session, as it comes pre-configured and it works very good.
 We must edit a couple of files, changing the following lines:
@@ -146,3 +146,6 @@ To set the ZSH as the default shell for the system (for both the user and root),
 
 # BlackArch - Pentesting utilities
     
+![BlackArch](img/iQtile%20Project%20blackarch.jpg)
+    
+(...)
