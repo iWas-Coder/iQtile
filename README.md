@@ -15,6 +15,7 @@
 - [Rofi configuration](#rofi-configuration)
 - [Ranger configuration](#ranger-configuration)
 - [Neovim configuration](#neovim-configuration)
+- [BlackArch - Pentesting utilities](#blackarch---Pentesting-utilities)
 
 # Partitions and formats
 
@@ -142,3 +143,6 @@ To set the ZSH as the default shell for the system (for both the user and root),
 ![Neovim](img/iQtile%20Project%20neovim.png)
 
 (...)
+
+# BlackArch - Pentesting utilities
+    
