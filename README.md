@@ -40,7 +40,8 @@ We will be using an automated script to install Arch Linux more easily:
 
     curl -L archfi.sf.net/archfi > archfi && chmod +x archfi && ./archfi
     
-After that, we would end up with with a fresh install of Arch Linux, ready to configure our Window Manager (WM) and programs.
+After that, we would end up with with a fresh install of Arch Linux, ready to configure our Desktop Environment (DE), Window Manager (WM) and programs.
+An important step is to not reboot the machine, and instead 'arch-chroot /mnt' and we change user to ours with 'su <USERNAME>'. At this point, we will install all config files from this session, so then we can reboot the system and we will se the final result. 
 
 # Pacman packages to install
 
@@ -55,7 +56,7 @@ Let's going to install all needed packages and dependencies to be able to apply 
 
 ![Qtile](img/iQtile%20Project%20qtile.png)
 
-(...)
+We will be using Qtile as our WM. To import the settings I made, we can use the following script to automatize the file management.
 
 # LightDM configuration
 
