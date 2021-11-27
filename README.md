@@ -148,4 +148,38 @@ To set the ZSH as the default shell for the system (for both the user and root),
     
 ![BlackArch](img/iQtile%20Project%20blackarch.jpg)
     
-(...)
+First, we need to setup and configure all sources and repositories to the BlackArch Linux distribution packages. To do so, we will use the following automate script:
+    
+    curl -L https://blackarch.org/strap.sh > strap.sh
+    chmod +x strap.sh
+    sudo ./strap.sh
+    
+- Wireless pentesting:
+    
+        pacman -S aircrack-ng zizzania wi-feye wepbuster jcrack
+    
+- Recognisement:
+    
+        pacman -S --needed recon-ng dnsenum dnswalk dnstracer dnsrecon shard whatweb onioff nmap maltego smtp-user-enum enum4linux
+    
+- Sniffing utilities:
+    
+        pacman -S --needed bettercap ettercap wireshark-gtk sslsnif netsniff-ng dsniff
+    
+- Reverse engineering:
+    
+        pacman -S --needed radare2 android-apktool jad javasnoop flasm python-capstone
+    
+- Forensic tools:
+    
+        pacman -S --needed casefile autopsy dff ddrescue dumpzilla magicrescue iphoneanalyzer naft peepdf recoverjpeg safecopy
+    
+- Hacking web:
+    
+        pacman -S --needed burpsuite vega zaproxy whatweb sqlmap wpscan joomlavs cloudget paros
+    
+- Exploiting:
+    
+        pacman -S --needed beef katana websploit
+    
+Now we should have a fully functional OS, with all the needed utilities to study and practice pentesting.
